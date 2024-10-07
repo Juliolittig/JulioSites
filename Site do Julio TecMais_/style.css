@@ -106,7 +106,7 @@ background-color: #4287f5;
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 40px;
+    width: 400px;
     margin: 0 10px 10px 0;
     text-decoration: none;
     border-radius: 50%;
@@ -131,22 +131,9 @@ background-color: #4287f5;
     color: white;
 background-color: #4287f5;
 }
-.footer-col .form-sub input::placeholder{
-    color: white;
-}
-.footer-col .form-sub button{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px; 
-    font-size: 17px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: #4287f5;
-    border-radius: 3px;
-    font-weight: bold;
-    background-color: white;        
-}
+
+   
+
 /* Responsivo */
 @media (max-width: 800px) {
     .footer-col{
