@@ -1,6 +1,5 @@
 *{
-   
-    font-family: 'roboto';
+     font-family: 'roboto';
 }
 
 #localização {
@@ -11,6 +10,8 @@
 #tit-produtos{
     padding: 15px;
     text-align:justify;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -19,3 +20,66 @@
     text-align: justify;
 }
 
+#imgmanutençao{
+    background-color: rgb(27, 216, 191);
+    border-radius: 80px;
+    width: 190px;
+    height: 190px;
+
+}
+
+#imgprog{
+    background-color: darkseagreen;
+    border-radius: 80px;
+    width: 190px;
+    height: 190px;
+}
+
+
+#imgpublicidade{
+    background-color: dodgerblue;
+    border-radius: 80px;
+    width: 190px;
+    height: 190px;
+}
+
+
+#imgserviço{
+    background-color: forestgreen;
+    border-radius: 80px;
+    width: 190px;
+    height: 190px;
+}
+
+
+#imglocalizaçao{
+    border-radius: 30px;
+    width: 690px;
+    height: 590px;
+}
+
+#imgsetor{
+   
+    width: 490px;
+    height: 350px;
+}
+
+#logo {
+    width: 350px;
+    height: 320px;
+    
+}
+
+
+
+
+
+#produtos{
+    display: flex;
+}
+
+#article{
+    display: flex;
+    justify-content: center;
+    
+}
