@@ -1,85 +1,93 @@
-*{
-     font-family: 'roboto';
+/* Estilo Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
-#localização {
-    padding: 15px;
-    text-align:left;
+header {
+    background-color: #eef3f8;
+    height: 80px;
 }
 
-#tit-produtos{
-    padding: 15px;
-    text-align:justify;
-    display: flex;
-    justify-content: center;
-
+section {
+    padding: 20px;
 }
 
-#seta{
-    padding: 15px;
-    text-align: justify;
-}
-
-#imgmanutençao{
-    background-color: rgb(27, 216, 191);
-    border-radius: 80px;
-    width: 190px;
-    height: 190px;
-
-}
-
-#imgprog{
-    background-color: darkseagreen;
-    border-radius: 80px;
-    width: 190px;
-    height: 190px;
-}
-
-
-#imgpublicidade{
-    background-color: dodgerblue;
-    border-radius: 80px;
-    width: 190px;
-    height: 190px;
-}
-
-
-#imgserviço{
-    background-color: forestgreen;
-    border-radius: 80px;
-    width: 190px;
-    height: 190px;
-}
-
-
-#imglocalizaçao{
-    border-radius: 30px;
-    width: 690px;
-    height: 590px;
-}
-
-#imgsetor{
-   
-    width: 490px;
-    height: 350px;
-}
-
+/* Estilo do Logo */
 #logo {
-    width: 350px;
-    height: 320px;
-    
+    display: block;
+    margin: 20px auto;
+    max-width: 350px;
 }
 
-
-
-
-
-#produtos{
-    display: flex;
+/* Texto do artigo */
+#article {
+    background-color:#ffffff;
+    text-align: center;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
-#article{
+/* Produtos e Serviços */
+#servicos {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tit-produtos {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Cards dos produtos */
+#produtos {
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#produtos article {
+    flex: 1;
+    min-width: 250px;
+    background-color: #eef3f8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#produtos img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+#produtos p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Seções adicionais */
+#localizacao, #setor, #setor2 {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#localizacao img, #seta img {
+    max-width: 150px;
+    margin: 20px 0;
 }
