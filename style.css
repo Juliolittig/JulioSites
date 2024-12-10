@@ -1,0 +1,187 @@
+
+/* Estilo Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divisao{
+    height: 3px;
+    width: 100px;
+    background-color: #0056b3;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+header{
+    background-color: #0056b3;
+    height: 300px;
+    width: 99vw;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#apresentacao{
+    position: relative;
+    top:-100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-top: #00c3ff solid 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    width: 80vw;
+    padding: 50px;
+    gap:30px;
+    max-width: 1100px;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Estilo do Logo */
+#logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 350px;
+}
+
+/* Texto do artigo */
+#article {
+    text-align: justify;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Produtos e Serviços */
+#servicos {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tit-produtos {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* Cards dos produtos */
+#produtos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#produtos article {
+    flex: 1;
+    min-width: 250px;
+    background-color: #0057b331;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formatoArtigo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+#produtos img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+#produtos p {
+    font-size: 14px;
+    color: #000000;
+}
+
+/* Seções adicionais */
+#localizacao, #setor, #setor2 {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+#localizacao img, #seta img {
+    max-width: 150px;
+    margin: 20px 0;
+}
+
+#imgsetor{
+    width: 400px;
+}
+
+#contato {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contato h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#formContato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Campos de texto */
+#formContato input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Botão */
+#formContato button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#formContato button:hover {
+    background-color: #0056b3;
+}
