@@ -185,3 +185,11 @@ section {
 #formContato button:hover {
     background-color: #0056b3;
 }
+
+@media only screen and (max-width: 1000px) {
+
+    #apresentacao{
+        flex-direction:colum;
+    }
+    
+}
