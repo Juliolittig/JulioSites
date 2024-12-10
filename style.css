@@ -189,7 +189,7 @@ section {
 @media only screen and (max-width: 1000px) {
 
     #apresentacao{
-        flex-direction:colum;
+        flex-direction: column;
     }
     
 }
